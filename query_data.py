@@ -6,7 +6,7 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 
 # Load environment variables from .env file
-load_dotenv(dotenv_path='open_ai_key.env')
+load_dotenv()
 
 CHROMA_PATH = "chroma"
 
